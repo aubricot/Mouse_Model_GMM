@@ -2,11 +2,7 @@
 **3D GMM in 3D Slicer**    
 Note: **Highlighted text** contains steps where you will interpret morphology. Pay extra attention to these when working with your own data.
 
-**Steps**FLMNH Digital Imaging Workshop - 3D GMM in 3D Slicer - Katherine Wolcott
-Tuesday, October 27th, from 2:00 – 4:00 pm in Dickinson Hall, room 371.
-Zoom link: https://ufl.zoom.us/j/96020949590
-Note: **Highlighted text** contains steps where you will interpret morphology. Pay extra attention to these when working with your own data.
-Steps
+**Steps**
 1. Install 3D Slicer
     - a. https://download.slicer.org/
 2. Open 3D Slicer
