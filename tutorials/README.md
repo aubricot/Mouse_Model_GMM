@@ -1,5 +1,5 @@
-# FLMNH Digital Imaging Workshop
-**3D GMM in 3D Slicer** 
+# FLMNH Digital Imaging Workshop   
+**3D GMM in 3D Slicer**    
 Note: **Highlighted text** contains steps where you will interpret morphology. Pay extra attention to these when working with your own data.
 
 **Steps**
@@ -9,7 +9,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
 3. Open the Extensions Manager module (puzzle piece icon in main navigation bar)
 
 <p align="center">
-<img src="./images/fig-000.png" width = 600>
+<img src="../images/fig-000.png" width = 600>
 </p>
 
 4. Install SlicerMorph
@@ -18,13 +18,13 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
     - c. Click “Install”
 
 <p align="center">
-<img src="./images/fig-001.png" width = 600>
+<img src="../images/fig-001.png" width = 600>
 </p>
 
     - d. Click “Restart” to restart Slicer and begin using SlicerMorph
 
 <p align="center">
-<img src="./images/fig-003.png" width = 600>
+<img src="../images/fig-003.png" width = 600>
 </p>
 
     - e. Detailed instructions
@@ -38,7 +38,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
     - c. Click “Download Zip”
 
 <p align="center">
-<img src="./images/fig-005.png" width = 600>
+<img src="../images/fig-005.png" width = 600>
 </p>
 
 8. Extract the files for GMM
@@ -47,7 +47,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
     - c. Open Mouse_models-main folder
 
 <p align="center">
-<img src="./images/fig-006.png" width = 600>
+<img src="../images/fig-006.png" width = 600>
 </p>
 
 9. **Inspect the mouse data - Most 3D geometric morphometrics pipelines require your data to follow this format**
@@ -62,7 +62,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
                 - b. Models/A_J.ply
 
 <p align="center">
-<img src="./images/fig-007.png" width = 600>
+<img src="../images/fig-007.png" width = 600>
 </p>
 
     - c. When creating your own GMM data, be sure to keep this structure
@@ -74,7 +74,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
             - 1. GPA
 
 <p align="center">
-<img src="./images/fig-008.png" width = 600>
+<img src="../images/fig-008.png" width = 600>
 </p>
 
 12. Load the landmark files
@@ -82,20 +82,20 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
     - b. Choose the “LMs” folder you downloaded from GitHub
 
 <p align="center">
-<img src="./images/fig-009.png" width = 600>
+<img src="../images/fig-009.png" width = 600>
 </p>
 
     - c. Select all files in the “LMs” folder
     - d. Click Open
 
 <p align="center">
-<img src="./images/fig-010.png" width = 600>
+<img src="../images/fig-010.png" width = 600>
 </p>
 
 13. Click the “View selected landmark files” tab to check that they loaded
 
 <p align="center">
-<img src="./images/fig-011.png" width = 600>
+<img src="../images/fig-011.png" width = 600>
 </p>
 
 14. Click “Select output directory”
@@ -104,7 +104,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
     - c. Select “GMM” and hit “Choose”
 
 <p align="center">
-<img src="./images/fig-012.png" width = 600>
+<img src="../images/fig-012.png" width = 600>
 </p>
 
 15. Click “Covariate options”
@@ -119,27 +119,27 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
         - i. It is a covariance analysis to condense landmarks into independent shape axes, which form the morphospace used to plot and compare specimens
 
 <p align="center">
-<img src="./images/fig-014.png" width = 600>
+<img src="../images/fig-014.png" width = 600>
 </p>
 
 17. Confirm that GPA + PCA succeeded
     - a. You should see outputs in the “GPA Module Log Information” tab, and in the three viewer windows on the bottom right side of the screen
 
 <p align="center">
-<img src="./images/fig-015.png" width = 600>
+<img src="../images/fig-015.png" width = 600>
 </p>
 
     - b. To see output files, click “View Output Files”
         - i. These files can be loaded into Slicer in a new session to resume analysis
 
 <p align="center">
-<img src="./images/fig-016.png" width = 600>
+<img src="../images/fig-016.png" width = 600>
 </p>
 
 18. Switch to the “Results” tab
 
 <p align="center">
-<img src="./images/fig-017.png" width = 600>
+<img src="../images/fig-017.png" width = 600>
 </p>
 
 19. Plot landmark variance
@@ -155,11 +155,11 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
         - iii. Identify another landmark variance plot and try to morphologically interpret what its shape means
 
 <p align="center">
-<img src="./images/fig-019.png" width = 600>
+<img src="../images/fig-019.png" width = 600>
 </p>
 
 <p align="center">
-<img src="./images/fig-020.png" width = 600>
+<img src="../images/fig-020.png" width = 600>
 </p>
 
 20. Plot the PCA scatterplot
@@ -172,7 +172,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
     - b. Inspect explained proportion of variance values
 
 <p align="center">
-<img src="./images/fig-021.png" width = 600>
+<img src="../images/fig-021.png" width = 600>
 </p>
 
     - c. Inspect PCA plot in blue window on right
@@ -189,11 +189,11 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
         - iv. Click “Restore View Layout” icon to return to multipanel view
 
 <p align="center">
-<img src="./images/fig-022.png" width = 600>
+<img src="../images/fig-022.png" width = 600>
 </p>
 
 <p align="center">
-<img src="./images/fig-023.png" width = 600>
+<img src="../images/fig-023.png" width = 600>
 </p>
 
 21. Plot lollipop vectors
@@ -205,13 +205,13 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
         - iii. Click “Lollipop Vector Plot”
 
 <p align="center">
-<img src="./images/fig-024.png" width = 600>
+<img src="../images/fig-024.png" width = 600>
 </p>
 
     - c. Click “Maximize view” icon to make lollipop plot full screen
 
 <p align="center">
-<img src="./images/fig-026.png" width = 600>
+<img src="../images/fig-026.png" width = 600>
 </p>
 
     - d. **Look at landmark 14 (also discussed in 18.c.ii)**
@@ -235,7 +235,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
     - d. Click “Apply”
 
 <p align="center">
-<img src="./images/fig-027.png" width = 600>
+<img src="../images/fig-027.png" width = 600>
 </p>
 
     - e. The left panel shows your reference model warped to the mean using the PCA mean landmark configuration
@@ -252,7 +252,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
             - 1. **What shape changes do you notice across PC1?**
 
 <p align="center">
-<img src="./images/fig-029.png" width = 600>
+<img src="../images/fig-029.png" width = 600>
 </p>
 
     - e. Optional
@@ -261,7 +261,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
         - iii. Watch the blue (reference) model warp using the landmark configuration of the selected point
 
 <p align="center">
-<img src="./images/fig-030.png" width = 600>
+<img src="../images/fig-030.png" width = 600>
 </p>
 
 25. Under, “Setup Interactive Visualization”
@@ -274,13 +274,13 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
         - iii. Click “Connect”
 
 <p align="center">
-<img src="./images/fig-032.png" width = 600>
+<img src="../images/fig-032.png" width = 600>
 </p>
 
     - b. Check that status checks passed for Rscript, Rserve, and Connection
 
 <p align="center">
-<img src="./images/fig-034.png" width = 600>
+<img src="../images/fig-034.png" width = 600>
 </p>
 
 27. **Start with a basic linear model in “R Formula”**
@@ -289,13 +289,13 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
         - ii. Nul/basel model: is shape explained by size alone?
 
 <p align="center">
-<img src="./images/fig-035.png" width = 600>
+<img src="../images/fig-035.png" width = 600>
 </p>
 
     - b. Click “Fit model in R (procD.lm)
 
 <p align="center">
-<img src="./images/fig-036.png" width = 600>
+<img src="../images/fig-036.png" width = 600>
 </p>
 
     - c. See the model as a shape change
@@ -305,7 +305,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
             - 3. Adjust the slider and view shape change for the warped mesh
 
 <p align="center">
-<img src="./images/fig-037.png" width = 600>
+<img src="../images/fig-037.png" width = 600>
 </p>
 
 28. Add a grouping variable to see if groups differ
