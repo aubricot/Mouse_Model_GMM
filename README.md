@@ -8,10 +8,11 @@ See [`tutorials/`](tutorials/) for the workshop workflow.
 
 | Path | Description |
 | --- | --- |
-| `Models/` | 62 mouse cranium surface models (`.ply`), one per strain |
-| `ape_malpaca/` | ALPACA/MALPACA landmark estimates for ape crania (`.fcsv`) |
-| `tutorials/` | Workshop workflow for this fork |
+| `Models/` | 62 mouse cranium surface models (`.ply`), one per specimen |
+| `LMs/` | 62 mouse cranium landmarks (`.mrk.json`), one per specimen |
 | `mouse_models_factors.csv` | Demo specimen metadata for coloring PCA plots |
+| `tutorials/` | Workshop workflow for this fork |
+| `ape_malpaca/` | ALPACA/MALPACA landmark estimates for ape crania (`.fcsv`) |
 
 ### A note on `mouse_models_factors.csv`
 
