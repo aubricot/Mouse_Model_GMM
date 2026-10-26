@@ -33,6 +33,11 @@ Forked from [SlicerMorph/Mouse_Models](https://github.com/SlicerMorph/Mouse_Mode
 ### Tutorials
 
 * **SlicerMorph tutorials on GitHub** — https://github.com/SlicerMorph/Tutorials
+  * GPA module I — https://github.com/SlicerMorph/Tutorials/tree/main/GPA_1
+  * GPA module II — https://github.com/SlicerMorph/Tutorials/blob/main/GPA_2
+  * GPA module III — https://github.com/SlicerMorph/Tutorials/blob/main/GPA_3
+  * GPA module IV — https://github.com/SlicerMorph/Tutorials/blob/main/GPA_4
+  * GPA module V — https://github.com/SlicerMorph/Tutorials/blob/main/heatmaps/README.MD
 * **SlicerMorph on YouTube** — https://www.youtube.com/@slicermorphslicermorph8728/videos
   * GPA module — https://www.youtube.com/watch?v=FCeZ2J5Uvcw
   * Applying your own landmarks — https://www.youtube.com/watch?v=aazPHFZWMdA and https://www.youtube.com/watch?v=xrly9atx7xQ
