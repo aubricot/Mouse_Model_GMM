@@ -33,9 +33,9 @@ Forked from [SlicerMorph/Mouse_Models](https://github.com/SlicerMorph/Mouse_Mode
 ### Tutorials
 
 * **SlicerMorph tutorials on GitHub** — https://github.com/SlicerMorph/Tutorials
+* **SlicerMorph on YouTube** — https://www.youtube.com/@slicermorphslicermorph8728/videos
   * GPA module — https://www.youtube.com/watch?v=FCeZ2J5Uvcw
   * Applying your own landmarks — https://www.youtube.com/watch?v=aazPHFZWMdA and https://www.youtube.com/watch?v=xrly9atx7xQ
-* **SlicerMorph on YouTube** — https://www.youtube.com/@slicermorphslicermorph8728/videos
 * **Virtual Paleontologist on YouTube** — https://www.youtube.com/@VirtPaleo
   * 3D Slicer GMM walkthrough — https://www.youtube.com/watch?v=Y_Hibl8pU74
 
