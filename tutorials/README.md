@@ -1,25 +1,31 @@
-FLMNH Digital Imaging Workshop - 3D GMM in 3D Slicer - Katherine Wolcott
-Tuesday, October 27th, from 2:00 – 4:00 pm in Dickinson Hall, room 371.
-Zoom link: https://ufl.zoom.us/j/96020949590
+# FLMNH Digital Imaging Workshop
+**3D GMM in 3D Slicer** 
 Note: **Highlighted text** contains steps where you will interpret morphology. Pay extra attention to these when working with your own data.
-Steps
+
+**Steps**
 1. Install 3D Slicer
     - a. https://download.slicer.org/
 2. Open 3D Slicer
 3. Open the Extensions Manager module (puzzle piece icon in main navigation bar)
 
-![](images/fig-000.png)
+<p align="center">
+<img src="images/fig-000.png" width = 600>
+</p>
 
 4. Install SlicerMorph
     - a. Click “Install Extensions” tab
     - b. Search for “SlicerMorph”
     - c. Click “Install”
 
-        ![](images/fig-001.png)
+<p align="center">
+<img src="images/fig-001.png" width = 600>
+</p>
 
     - d. Click “Restart” to restart Slicer and begin using SlicerMorph
 
-        ![](images/fig-003.png)
+<p align="center">
+<img src="images/fig-003.png" width = 600>
+</p>
 
     - e. Detailed instructions
         - i. https://github.com/SlicerMorph/SlicerMorph#installation
@@ -31,14 +37,18 @@ Steps
     - b. Click the  “Code” dropdown menu
     - c. Click “Download Zip”
 
-        ![](images/fig-005.png)
+<p align="center">
+<img src="images/fig-005.png" width = 600>
+</p>
 
 8. Extract the files for GMM
     - a. Locate “Mouse_Models-main.zip” in your Downloads folder
     - b. Right click and extract the file (varies by operating system)
     - c. Open Mouse_models-main folder
 
-        ![](images/fig-006.png)
+<p align="center">
+<img src="images/fig-006.png" width = 600>
+</p>
 
 9. **Inspect the mouse data - Most 3D geometric morphometrics pipelines require your data to follow this format**
     - a. Directory structure
@@ -51,7 +61,9 @@ Steps
                 - a. LMs/A_J.mrk.json
                 - b. Models/A_J.ply
 
-                    ![](images/fig-007.png)
+<p align="center">
+<img src="images/fig-007.png" width = 600>
+</p>
 
     - c. When creating your own GMM data, be sure to keep this structure
 10. Return to 3D Slicer
@@ -61,29 +73,39 @@ Steps
         - i. Geometric Morphometrics
             - 1. GPA
 
-                ![](images/fig-008.png)
+<p align="center">
+<img src="images/fig-008.png" width = 600>
+</p>
 
 12. Load the landmark files
     - a. Click “Select Landmark Files”
     - b. Choose the “LMs” folder you downloaded from GitHub
 
-        ![](images/fig-009.png)
+<p align="center">
+<img src="images/fig-009.png" width = 600>
+</p>
 
     - c. Select all files in the “LMs” folder
     - d. Click Open
 
-        ![](images/fig-010.png)
+<p align="center">
+<img src="images/fig-010.png" width = 600>
+</p>
 
 13. Click the “View selected landmark files” tab to check that they loaded
 
-![](images/fig-011.png)
+<p align="center">
+<img src="images/fig-011.png" width = 600>
+</p>
 
 14. Click “Select output directory”
     - a. Navigate to “Mouse_Models-main”
     - b. Create a new folder, “GMM”
     - c. Select “GMM” and hit “Choose”
 
-        ![](images/fig-012.png)
+<p align="center">
+<img src="images/fig-012.png" width = 600>
+</p>
 
 15. Click “Covariate options”
     - a. Select covariates table: demo_metadata.csv
@@ -96,21 +118,29 @@ Steps
     - b. PCA is Principal Component Analysis
         - i. It is a covariance analysis to condense landmarks into independent shape axes, which form the morphospace used to plot and compare specimens
 
-            ![](images/fig-014.png)
+<p align="center">
+<img src="images/fig-014.png" width = 600>
+</p>
 
 17. Confirm that GPA + PCA succeeded
     - a. You should see outputs in the “GPA Module Log Information” tab, and in the three viewer windows on the bottom right side of the screen
 
-        ![](images/fig-015.png)
+<p align="center">
+<img src="images/fig-015.png" width = 600>
+</p>
 
     - b. To see output files, click “View Output Files”
         - i. These files can be loaded into Slicer in a new session to resume analysis
 
-            ![](images/fig-016.png)
+<p align="center">
+<img src="images/fig-016.png" width = 600>
+</p>
 
 18. Switch to the “Results” tab
 
-![](images/fig-017.png)
+<p align="center">
+<img src="images/fig-017.png" width = 600>
+</p>
 
 19. Plot landmark variance
     - a. This plot shows how much variation is present in your dataset at each landmark
@@ -124,9 +154,13 @@ Steps
             - 1. It  looks very variable anteroposteriorly, but not very variable laterally
         - iii. Identify another landmark variance plot and try to morphologically interpret what its shape means
 
-            ![](images/fig-019.png)
+<p align="center">
+<img src="images/fig-019.png" width = 600>
+</p>
 
-            ![](images/fig-020.png)
+<p align="center">
+<img src="images/fig-020.png" width = 600>
+</p>
 
 20. Plot the PCA scatterplot
     - a. Plot PC1 v PC2
@@ -137,7 +171,9 @@ Steps
         - iv. Click “Scatter Plot”
     - b. Inspect explained proportion of variance values
 
-        ![](images/fig-021.png)
+<p align="center">
+<img src="images/fig-021.png" width = 600>
+</p>
 
     - c. Inspect PCA plot in blue window on right
         - i. Click “Maximize view” icon to make the PCA plot full screen
@@ -152,9 +188,13 @@ Steps
             - 1. What shape trait might PC2 capture? Inspect the min and max shapes and make a guess
         - iv. Click “Restore View Layout” icon to return to multipanel view
 
-            ![](images/fig-022.png)
+<p align="center">
+<img src="images/fig-022.png" width = 600>
+</p>
 
-            ![](images/fig-023.png)
+<p align="center">
+<img src="images/fig-023.png" width = 600>
+</p>
 
 21. Plot lollipop vectors
     - a. Lollipop vectors show shape change along trajectories
@@ -164,11 +204,15 @@ Steps
         - ii. Vector Two: PC2
         - iii. Click “Lollipop Vector Plot”
 
-            ![](images/fig-024.png)
+<p align="center">
+<img src="images/fig-024.png" width = 600>
+</p>
 
     - c. Click “Maximize view” icon to make lollipop plot full screen
 
-        ![](images/fig-026.png)
+<p align="center">
+<img src="images/fig-026.png" width = 600>
+</p>
 
     - d. **Look at landmark 14 (also discussed in 18.c.ii)**
         - i. Inspect PC1 (red) and PC2 (green) vectors
@@ -190,7 +234,9 @@ Steps
     - c. Active warp source: PCA
     - d. Click “Apply”
 
-        ![](images/fig-027.png)
+<p align="center">
+<img src="images/fig-027.png" width = 600>
+</p>
 
     - e. The left panel shows your reference model warped to the mean using the PCA mean landmark configuration
     - f. The right panel shows the actual reference specimen and landmarks
@@ -205,14 +251,18 @@ Steps
         - i. Adjust the slider to see min and max shapes along chosen PC
             - 1. **What shape changes do you notice across PC1?**
 
-                ![](images/fig-029.png)
+<p align="center">
+<img src="images/fig-029.png" width = 600>
+</p>
 
     - e. Optional
         - i. Check “Drive 3D model from PCA scatter plot”
         - ii. Click a point in the PCA Scatter Plot
         - iii. Watch the blue (reference) model warp using the landmark configuration of the selected point
 
-            ![](images/fig-030.png)
+<p align="center">
+<img src="images/fig-030.png" width = 600>
+</p>
 
 25. Under, “Setup Interactive Visualization”
     - a. Active warp source: Geomorph LR
@@ -223,22 +273,30 @@ Steps
         - ii. Click “Launch Rserve”
         - iii. Click “Connect”
 
-            ![](images/fig-032.png)
+<p align="center">
+<img src="images/fig-032.png" width = 600>
+</p>
 
     - b. Check that status checks passed for Rscript, Rserve, and Connection
 
-        ![](images/fig-034.png)
+<p align="center">
+<img src="images/fig-034.png" width = 600>
+</p>
 
 27. **Start with a basic linear model in “R Formula”**
     - a. Coords ~ Size
         - i. shape (the Procrustes coordinates, Coords) as a function of size
         - ii. Nul/basel model: is shape explained by size alone?
 
-            ![](images/fig-035.png)
+<p align="center">
+<img src="images/fig-035.png" width = 600>
+</p>
 
     - b. Click “Fit model in R (procD.lm)
 
-        ![](images/fig-036.png)
+<p align="center">
+<img src="images/fig-036.png" width = 600>
+</p>
 
     - c. See the model as a shape change
         - i. Go to “Coefficient Visualization Parameters”
@@ -246,7 +304,9 @@ Steps
             - 2. Click “Update Magnification”
             - 3. Adjust the slider and view shape change for the warped mesh
 
-                ![](images/fig-037.png)
+<p align="center">
+<img src="images/fig-037.png" width = 600>
+</p>
 
 28. Add a grouping variable to see if groups differ
     - a. Coords ~ Size + collection_locality
