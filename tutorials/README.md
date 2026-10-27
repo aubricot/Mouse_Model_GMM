@@ -33,7 +33,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
 6. Open your web browser
 7. Download sample data from the tutorial GitHub repo
     - a. Navigate to the Mouse_Models tutorial repository
-        - i. https://github.com/aubricot/Mouse_Models/tree/main
+        - i. https://github.com/aubricot/Mouse_Model_GMM/
     - b. Click the  “Code” dropdown menu
     - c. Click “Download Zip”
 
@@ -114,7 +114,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
 16. Click “Execute GPA + PCA”
     - a. GPA is Generalized Procrustes Analysis
         - i. It is a superimposition strategy to align and scale meshes
-        - ii. This minimizes position and shape variation, so GMM analysis can focus on shape differences
+        - ii. This minimizes position and size variation, so GMM analysis can focus on shape differences
     - b. PCA is Principal Component Analysis
         - i. It is a covariance analysis to condense landmarks into independent shape axes, which form the morphospace used to plot and compare specimens
 
@@ -167,9 +167,11 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
         - i. X Axis: PC 1
         - ii. Y Axis: PC 2
         - iii. Select factor: diet
-            - 1. This allows you to color points by species, age, collection locality, etc.
+            - 1. You can color points by diet, species, age, collection locality, etc.
         - iv. Click “Scatter Plot”
     - b. Inspect explained proportion of variance values
+        - i. PC 1: 21.95%
+        - ii. PC 2: 10.09%
 
       <p align="center">
       <img src="../images/fig-021.png" width = 600>
@@ -242,7 +244,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
     - f. The right panel shows the actual reference specimen and landmarks
 24. Adjust “PCA Visualization Parameters”
     - a. **Watch the blue model warp along PCs using parameters you set here to understand morphospace trends**
-    - b. Magnification Factor: 5.00
+    - b. Magnification Factor: 10.00
         - i. This updates the magnification of PCA warping to 3 SD’s from the mean
         - ii. We are using a high value to make visualizing changes in lab mice easier. For most non-biomedical/model organism datasets, 1.00-3.00 is plenty
     - c. Slider warps: 1
@@ -286,7 +288,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
 27. **Start with a basic linear model in “R Formula”**
     - a. Coords ~ Size
         - i. shape (the Procrustes coordinates, Coords) as a function of size
-        - ii. Nul/basel model: is shape explained by size alone?
+        - ii. Null/base model: is shape explained by size alone?
 
           <p align="center">
           <img src="../images/fig-035.png" width = 600>
@@ -320,4 +322,4 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
     - a. Be sure to check out SlicerMorph Tutorial for more information
         - i. https://github.com/SlicerMorph/Tutorials/tree/main
 30. To continue with some other classic geometric morphometric analysis from R geomorph (Adams et al. 2025), check out the demo on Google colab and the R script in the tutorial GitHub
-    - a. https://github.com/aubricot/Mouse_Models/tree/main
+    - a. https://github.com/aubricot/Mouse_Model_GMM/
