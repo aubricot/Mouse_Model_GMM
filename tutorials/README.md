@@ -50,7 +50,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
       <img src="../images/fig-006.png" width = 600>
       </p>
 
-9. **Inspect the mouse data - Most 3D geometric morphometrics pipelines require your data to follow this format**
+9. **Inspect the mouse data structure - Most 3D geometric morphometrics pipelines require your data to follow this format**
     - a. Directory structure
         - i. Main directory (Mouse_models-main)
             - 1. LMs (all landmarks in one folder)
@@ -151,7 +151,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
             - 1. Click and rotate the landmark variance points
             - 2. Adjust “Scale Glyphs” to show labels on points
         - ii. For example, landmark 14 (yellow oval along skull midline) is long and skinny
-            - 1. It  looks very variable anteroposteriorly, but not very variable laterally
+            - 1. It varies anteroposteriorly, but not much laterally
         - iii. Identify another landmark variance plot and try to morphologically interpret what its shape means
 
           <p align="center">
@@ -313,7 +313,7 @@ Note: **Highlighted text** contains steps where you will interpret morphology. P
 28. Add a grouping variable to see if groups differ
     - a. Coords ~ Size + collection_locality
         - i. + fits main effects only
-        - ii. common slopes: groups differ in mean shape but share the size trend
+        - ii. Common slopes: groups differ in mean shape but share the size trend
     - b. Coords ~ Size * collection_locality
         - i. * is shorthand for main effects plus their interaction
             - 1. Size * locality expands to Size + locality + Size:locality
