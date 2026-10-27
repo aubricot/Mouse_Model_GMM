@@ -14,6 +14,9 @@ See [`tutorials/`](tutorials/) for the workshop workflow.
 | `tutorials/` | Workshop workflow for this fork |
 | `ape_malpaca/` | ALPACA/MALPACA landmark estimates for ape crania (`.fcsv`) |
 
+### Geomorph demo in Google Colab
+:arrow_right: 💮: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aubricot/Mouse_Models/blob/main/mouse_gmm_demo.ipynb) Click here to try out R geomorph.
+
 ### A note on `mouse_models_factors.csv`
 
 The `collection_locality`, `diet`, and `strain` columns are **fabricated** for teaching purposes only. They exist so workshop participants can practice coloring and grouping points in morphospace, and should not be cited or reused as real specimen data. The `specimen_id` column matches the `Models/` filenames so the table joins directly onto GPA output.
