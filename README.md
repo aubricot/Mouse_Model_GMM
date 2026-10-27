@@ -11,7 +11,7 @@ See [`tutorials/`](tutorials/) for the workshop workflow.
 | `Models/` | 62 mouse cranium surface models (`.ply`), one per specimen |
 | `LMs/` | 62 mouse cranium landmarks (`.mrk.json`), one per specimen |
 | `mouse_models_factors.csv` | Demo specimen metadata for coloring PCA plots |
-| `tutorials/` | Workshop workflow |
+| `tutorials/` | Workshop tutorial and GMM Slides |
 | `mouse_gmm_demo.ipynb` | R geomorph demo in Google Colab |
 
 ### Geomorph demo in Google Colab
