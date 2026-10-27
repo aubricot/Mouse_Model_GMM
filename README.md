@@ -32,6 +32,7 @@ Forked from [SlicerMorph/Mouse_Models](https://github.com/SlicerMorph/Mouse_Mode
 * **SlicerMorph** — https://slicermorph.org
 * **geomorph** (geometric morphometrics in R) — https://cran.r-project.org/web/packages/geomorph/index.html
   * Tutorial playlist — https://www.youtube.com/watch?v=X0XK2cucJnc&list=PLArEOEE-THY4GSpBCuqi-jiw-XBRm7ef-&index=5
+  * See example R code for analyzing [cacao](https://github.com/aubricot/Cacao_3D_gmm/tree/main) (one species only) and for [cacao and its allies](https://github.com/aubricot/bytt_3d_gmm/tree/main) (multiple species) using fixed and semilandmarks
 
 ### Tutorials
 
