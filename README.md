@@ -11,8 +11,8 @@ See [`tutorials/`](tutorials/) for the workshop workflow.
 | `Models/` | 62 mouse cranium surface models (`.ply`), one per specimen |
 | `LMs/` | 62 mouse cranium landmarks (`.mrk.json`), one per specimen |
 | `mouse_models_factors.csv` | Demo specimen metadata for coloring PCA plots |
-| `tutorials/` | Workshop workflow for this fork |
-| `ape_malpaca/` | ALPACA/MALPACA landmark estimates for ape crania (`.fcsv`) |
+| `tutorials/` | Workshop workflow |
+| `mouse_gmm_demo.ipynb` | R geomorph demo in Google Colab |
 
 ### Geomorph demo in Google Colab
 :arrow_right: 💮: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aubricot/Mouse_Models/blob/main/mouse_gmm_demo.ipynb) Click here to try out R geomorph.
